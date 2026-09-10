@@ -1,0 +1,26 @@
+Inventaires
+
+# Actors
+    ## Humains
+        - utilisateurs
+        - utilisateurs avec Carte de Credit
+        - Employes
+    ## Non Humains
+        - Lecteur de Carte
+        - Distributeur de billet
+        - SIB
+        - SAB
+
+# Uses-cases
+    - distribuer argent
+    - s'authentier
+    - Consulter le compte,
+    - Deposer argent
+    - Deposer Cheque,
+    - recharger le Distributeur
+    - 
+
+
+# Relations
+
+
