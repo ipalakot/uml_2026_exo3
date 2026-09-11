@@ -1,0 +1,13 @@
+                    PCNC   PCC   Maintenancier   Lecteur   Distributeur   SAD   SIB
+S'authentifier       X     X                       X
+Autoriser
+Transaction          X     X                                              X
+Consulter                  X                                                    X
+Consulter Details          X
+Editer RIB                 X
+Retirer Argent       X     X                                    X
+Deposer Argent             X
+Deposer Cheque             X
+Recharger
+Distributeur                          x
+
