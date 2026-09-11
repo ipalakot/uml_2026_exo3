@@ -3,24 +3,51 @@ Inventaires
 # Actors
     ## Humains
         - utilisateurs
-        - utilisateurs avec Carte de Credit
-        - Employes
+            - utilisateurs avec Carte de Credit (PCNC)
+            - utilisateurs avec Carte de la Banque (PCC)
+        - Maintenancier
+
     ## Non Humains
-        - Lecteur de Carte
-        - Distributeur de billet
-        - SIB
-        - SAB
+        - Lecteur de Carte (Lecteur)
+        - Distributeur de billet (Distributeur)
+        - Système d'autorisation Distant (SAD)
+        - Systeme d'information de la Banque  (SIB)
+
+
 
 # Uses-cases
-    - distribuer argent
-    - s'authentier
+    - s'authentifier,
+        - Autoriser Transaction
     - Consulter le compte,
-    - Deposer argent
+        - Consulter details
+        - Editer RIB
+    - Retirer argent, 
+    - Deposer argent,
     - Deposer Cheque,
-    - recharger le Distributeur
-    - 
-
+    - recharger le Distributeur,
 
 # Relations
+    PNCC -- S'authentifier
+    PNCC -- Retirer argent
+
+    PCC -- S'authentifier
+    PCC -- Consulter le compte,
+    PCC -- Deposer argent,
+    PCC -- Retirer argent, 
+
+    Maintenancier -- recharger le Distributeur,
+    
+    Retirer argent <- Distributeur 
+    S'authentifier < - Lecteur
+    Autoriser Transaction -- SAD
+
+
+
+
+
+
+
+
+
 
 
