@@ -14,7 +14,6 @@ Inventaires
         - Systeme d'information de la Banque  (SIB)
 
 
-
 # Uses-cases
     - s'authentifier,
         - Autoriser Transaction
@@ -26,6 +25,8 @@ Inventaires
     - Deposer Cheque,
     - recharger le Distributeur,
 
+
+
 # Relations
     PNCC -- S'authentifier
     PNCC -- Retirer argent
@@ -36,18 +37,9 @@ Inventaires
     PCC -- Retirer argent, 
 
     Maintenancier -- recharger le Distributeur,
-    
+
     Retirer argent <- Distributeur 
     S'authentifier < - Lecteur
     Autoriser Transaction -- SAD
-
-
-
-
-
-
-
-
-
 
 
